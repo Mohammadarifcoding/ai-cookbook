@@ -114,3 +114,7 @@ qdrant_data/
 CLAUDE.md
 
 */docs
+
+# Codex
+.agents/
+AGENTS.md
