@@ -1,1254 +1,1697 @@
-# Backend, AI Engineering & FDE Roadmap
+# Final Battle
 
-> Track progress with the proficiency scale below. Fill in a level (0-5) next to each skill as you go.
+## Backend Heavy AI Systems Engineer Roadmap
 
-## Proficiency Scale
+> Goal: become an AI native technical owner who can understand a difficult business problem, design the system, use AI agents to implement it quickly, verify critical decisions, secure it, deploy it, operate it, and take responsibility for the outcome.
 
-| Level | Meaning |
-|---|---|
-| 0 | Not learned |
-| 1 | Understand the concept |
-| 2 | Can implement with guidance |
-| 3 | Can implement independently |
-| 4 | Can design and operate production systems |
-| 5 | Can debug, optimize, make tradeoffs, and teach others |
+This roadmap is optimized for:
 
-**Target:** Core capabilities → Level 4-5. Supporting tech → Level 2-3. Optional tech → Level 1 until needed.
+* Bangladesh market reality
+* International remote opportunities
+* Rapid AI capability growth
+* Strong backend and systems depth
+* Production AI engineering
+* AI assisted software development
+* Product ownership
+* Forward Deployed Engineering
+* Career resilience through 2027 and beyond
 
----
+The goal is not to outlearn AI.
 
-## Learning Priority (Phases)
-
-- [ ] **Phase 1** — Foundations: Software eng basics → Backend eng → PostgreSQL/Redis → AuthN/AuthZ → Testing
-- [ ] **Phase 2** — Distributed systems: Workflows → Queues → Idempotency → Caching → Docker → CI/CD → Observability
-- [ ] **Phase 3** — AI core: Model APIs → Structured outputs → Context engineering → Tool calling → RAG
-- [ ] **Phase 4** — Agentic systems: Agent workflows → State → Harness engineering → Human approval → Durable workflows → AI eval
-- [ ] **Phase 5** — Production & scale: AI security → Enterprise integrations → Multi-tenant architecture → FDE skills → Production AI systems
+The goal is to become more capable as AI becomes more capable.
 
 ---
 
-## Table of Contents
+# Career Identity
 
-1. [Software Engineering Foundations](#01-software-engineering-foundations)
-2. [Backend and API Engineering](#02-backend-and-api-engineering)
-3. [Database and Data Engineering](#03-database-and-data-engineering)
-4. [Distributed Systems and Workflow Engineering](#04-distributed-systems-and-workflow-engineering)
-5. [Testing and Software Quality](#05-testing-and-software-quality)
-6. [Cloud, DevOps and Production Engineering](#06-cloud-devops-and-production-engineering)
-7. [Observability, Reliability and Operations](#07-observability-reliability-and-operations)
-8. [Security and Compliance](#08-security-and-compliance)
-9. [AI Application Engineering](#09-ai-application-engineering)
-10. [Retrieval and RAG](#10-retrieval-and-rag)
-11. [Agentic Systems](#11-agentic-systems)
-12. [AI Evaluation, Safety and Operations](#12-ai-evaluation-safety-and-operations)
-13. [Enterprise Integration Engineering](#13-enterprise-integration-engineering)
-14. [Forward Deployed Engineering](#14-forward-deployed-engineering-and-product-delivery)
-15. [Product Building and Frontend Breadth](#15-product-building-and-frontend-breadth)
-16. [AI Assisted Software Engineering](#16-ai-assisted-software-engineering)
-17. [Document and Multimodal AI](#17-document-and-multimodal-ai)
-18. [Desktop and Offline Systems](#18-desktop-and-offline-systems)
-19. [Advanced Specialization](#19-advanced-specialization)
-20. [Interview Preparation](#20-interview-preparation)
+Primary identity until December 2027:
+
+**Backend Heavy AI Systems Engineer**
+
+Possible future branches:
+
+* AI Systems Engineer
+* Applied AI Engineer
+* Backend Engineer
+* Platform Engineer
+* Forward Deployed Engineer
+* Security Engineer
+* AI Infrastructure Engineer
+
+Do not specialize in everything at once.
 
 ---
 
-## 01. Software Engineering Foundations
+# Core Technology Stack
 
-### Programming
-| Skill | Level (0-5) |
-|---|---|
-| TypeScript | |
-| Node.js | |
-| Python for AI engineering | |
-| Data structures fundamentals | |
-| Object oriented programming | |
-| Functional programming fundamentals | |
-| Error handling | |
-| Dependency management | |
+## Primary Languages
 
-### Runtime Fundamentals
-| Skill | Level (0-5) |
-|---|---|
-| Processes | |
-| Threads | |
-| Event loop | |
-| Asynchronous programming | |
-| Concurrency | |
-| Parallelism fundamentals | |
-| Memory fundamentals | |
-| Filesystem fundamentals | |
-| Streams | |
-| Buffers | |
+* [ ] TypeScript
+* [ ] JavaScript
+* [ ] Python
+* [ ] SQL
 
-### Operating Systems
-| Skill | Level (0-5) |
-|---|---|
-| Linux | |
-| Shell usage | |
-| Processes and signals | |
-| Permissions | |
-| Environment variables | |
-| Filesystem navigation | |
-| Resource monitoring | |
+## Backend
 
-### Networking
-| Skill | Level (0-5) |
-|---|---|
-| HTTP | |
-| HTTPS | |
-| TCP and UDP fundamentals | |
-| DNS | |
-| Ports | |
-| Proxies | |
-| Reverse proxies | |
-| TLS fundamentals | |
-| WebSockets fundamentals | |
+* [ ] Node.js
+* [ ] NestJS
+* [ ] REST APIs
+* [ ] OpenAPI
+* [ ] WebSockets
+* [ ] Zod
+* [ ] Better Auth
+* [ ] CASL
 
-### Developer Workflow
-| Skill | Level (0-5) |
-|---|---|
-| Git | |
-| Branching strategies | |
-| Debugging | |
-| Profiling | |
-| Static analysis | |
-| Package management | |
-| Code review | |
-| Refactoring | |
+## Data
 
----
+* [ ] PostgreSQL
+* [ ] Drizzle ORM
+* [ ] Redis
 
-## 02. Backend and API Engineering
+Use only when required:
 
-> Learning direction: `HTTP → API design → validation → authentication → authorization → multi tenancy`
+* [ ] pgvector
+* [ ] Qdrant
+* [ ] Neo4j
 
-### API Engineering
-| Skill | Level (0-5) |
-|---|---|
-| REST API design | |
-| Resource modeling | |
-| Request validation | |
-| Response design | |
-| Error response design | |
-| Pagination | |
-| Filtering | |
-| Sorting | |
-| API versioning | |
-| OpenAPI | |
-| API documentation | |
-| File uploads | |
-| WebSockets fundamentals | |
+## Infrastructure
 
-### Authentication
-| Skill | Level (0-5) |
-|---|---|
-| Password security | |
-| Session management | |
-| Cookies | |
-| JWT | |
-| Refresh tokens | |
-| OAuth 2.0 | |
-| OpenID Connect | |
-| SSO fundamentals | |
-| SAML fundamentals | |
-| MFA fundamentals | |
+* [ ] Linux
+* [ ] Docker
+* [ ] Docker Compose
+* [ ] GitHub Actions
+* [ ] Hetzner Cloud
+* [ ] AWS fundamentals
+* [ ] Nginx or Caddy
+* [ ] DNS
+* [ ] TLS
+* [ ] Infisical
 
-### Authorization
-| Skill | Level (0-5) |
-|---|---|
-| Permissions | |
-| RBAC | |
-| ABAC | |
-| Policy based authorization | |
-| Resource ownership | |
-| Tenant scoped permissions | |
+## Observability
 
-### Multi Tenancy
-| Skill | Level (0-5) |
-|---|---|
-| Multi tenant architecture | |
-| Tenant identification | |
-| Tenant isolation | |
-| Database isolation strategies | |
-| Authorization isolation | |
-| Storage isolation | |
-| Cross tenant attack prevention | |
-| Tenant aware background jobs | |
-| Tenant aware caching | |
+* [ ] Structured logging
+* [ ] Sentry
+* [ ] Grafana
+* [ ] OpenTelemetry fundamentals
+* [ ] Metrics
+* [ ] Tracing
+* [ ] Alerting
+
+## AI Engineering
+
+* [ ] Python
+* [ ] FastAPI fundamentals
+* [ ] Model APIs
+* [ ] Structured outputs
+* [ ] Tool calling
+* [ ] Context engineering
+* [ ] Model routing
+* [ ] Agent workflows
+* [ ] Human approval
+* [ ] Evaluation
+* [ ] AI observability
+* [ ] AI security
+* [ ] RAG fundamentals
+* [ ] MCP
+* [ ] LangGraph
+
+## AI Assisted Engineering
+
+* [ ] Claude Code
+* [ ] Codex
+* [ ] GitHub Copilot
+* [ ] Repository instruction files
+* [ ] Specification driven development
+* [ ] Parallel coding agents
+* [ ] AI code review
+* [ ] AI debugging
+* [ ] AI generated testing
+* [ ] AI security review
+* [ ] Agent orchestration
+
+## Web Product Development
+
+* [ ] React
+* [ ] Next.js
+* [ ] Tailwind CSS
+* [ ] shadcn/ui
+* [ ] TanStack Query
+* [ ] Zustand
+
+Frontend is a shipping capability.
+
+It is not the primary specialization.
+
+## Mobile Development
+
+* [ ] React Native
+* [ ] Expo
+
+## Desktop Development
+
+* [ ] Tauri
+* [ ] React
+* [ ] SQLite
+
+Awareness only:
+
+* [ ] Electron
 
 ---
 
-## 03. Database and Data Engineering
+# Proficiency Scale
 
-> Rule: `PostgreSQL first → specialized database second`
+Level 0: Not learned
 
-### Relational Databases
-| Skill | Level (0-5) |
-|---|---|
-| Relational modeling | |
-| PostgreSQL | |
-| SQL | |
-| Schema design | |
-| Relationships | |
-| Constraints | |
-| Transactions | |
-| ACID | |
-| Isolation levels | |
-| Locks | |
-| Indexes | |
-| Query plans | |
-| Query optimization | |
-| Connection pooling | |
-| Migrations | |
+Level 1: Understand the concept
 
-### Database Operations
-| Skill | Level (0-5) |
-|---|---|
-| Backups | |
-| Restore testing | |
-| Replication fundamentals | |
-| Database monitoring | |
-| Data migrations | |
-| Zero downtime migration fundamentals | |
+Level 2: Can implement with guidance
 
-### Redis
-| Skill | Level (0-5) |
-|---|---|
-| Redis fundamentals | |
-| Caching | |
-| Cache invalidation | |
-| TTL strategies | |
-| Distributed coordination fundamentals | |
-| Rate limit storage | |
-| Queue backing storage | |
+Level 3: Can implement independently
 
-### Data Processing
-| Skill | Level (0-5) |
-|---|---|
-| CSV import and export | |
-| Excel processing | |
-| Data validation | |
-| Data cleaning | |
-| Data mapping | |
-| Schema transformation | |
-| Reconciliation | |
-| Analytics queries | |
-| Reporting tables | |
+Level 4: Can design and operate production systems
 
-### Specialized Databases *(learn only when required)*
-| Skill | Level (0-5) |
-|---|---|
-| pgvector | |
-| Qdrant | |
-| Vector databases | |
-| Neo4j | |
-| Cypher | |
-| Graph databases | |
-| Data warehouses | |
+Level 5: Can debug, optimize, evaluate tradeoffs, and teach others
+
+### Target
+
+Core capabilities: Level 4 or Level 5
+
+Working capabilities: Level 2 or Level 3
+
+Optional technologies: Level 1 until actual work requires more
 
 ---
 
-## 04. Distributed Systems and Workflow Engineering
+# Priority System
 
-> Learning direction: `Background jobs → queues → retries → idempotency → outbox → events → durable workflows`
+Every skill belongs to one of three groups.
 
-### Background Processing
-| Skill | Level (0-5) |
-|---|---|
-| Background workers | |
-| Queue fundamentals | |
-| Job processing | |
-| Scheduled jobs | |
-| Delayed jobs | |
-| Job priorities | |
+## Core
 
-### Reliability
-| Skill | Level (0-5) |
-|---|---|
-| Retry strategies | |
-| Exponential backoff | |
-| Idempotency | |
-| Deduplication | |
-| Timeouts | |
-| Cancellation | |
-| Dead letter queues | |
-| Poison messages | |
+Deep understanding required.
 
-### Distributed Coordination
-| Skill | Level (0-5) |
-|---|---|
-| Distributed locking | |
-| Leader election fundamentals | |
-| Outbox pattern | |
-| Inbox pattern | |
-| Event driven architecture | |
-| Eventual consistency | |
-| Saga fundamentals | |
+AI should not be able to make you completely dependent on implementation details.
 
-### Durable Workflows
-| Skill | Level (0-5) |
-|---|---|
-| Durable execution | |
-| Workflow state | |
-| Workflow recovery | |
-| Checkpointing | |
-| Long running workflows | |
-| Human approval workflows | |
+## Working
 
-### Resilience
-| Skill | Level (0-5) |
-|---|---|
-| Backpressure | |
-| Circuit breakers | |
-| Bulkheads | |
-| Graceful degradation | |
-| Failure isolation | |
-| Dependency failure handling | |
+Understand enough to build and operate systems.
+
+Go deeper only when work requires it.
+
+## Optional
+
+Learn only when there is a real project, job, or business requirement.
 
 ---
 
-## 05. Testing and Software Quality
+# Learning Durability
 
-> Keep normal software testing separate from AI evaluation.
+## Durable Knowledge
 
-### Core Testing
-| Skill | Level (0-5) |
-|---|---|
-| Unit testing | |
-| API testing | |
-| Integration testing | |
-| End to end testing | |
-| Contract testing | |
-| Database testing | |
-| Migration testing | |
-| Permission testing | |
-| Regression testing | |
+Spend the most serious learning time here.
 
-### Production Quality
-| Skill | Level (0-5) |
-|---|---|
-| Load testing | |
-| Stress testing | |
-| Performance testing | |
-| Static analysis | |
-| Dependency scanning | |
-| Security testing | |
-| Code review | |
-| Refactoring | |
-| Testable architecture | |
+* [ ] Databases
+* [ ] Networking
+* [ ] Operating systems
+* [ ] Distributed systems
+* [ ] Concurrency
+* [ ] Security
+* [ ] Authentication
+* [ ] Authorization
+* [ ] Reliability
+* [ ] System design
+* [ ] Data modelling
+* [ ] Debugging
+* [ ] Software architecture
+* [ ] Product reasoning
 
----
+## Changing Knowledge
 
-## 06. Cloud, DevOps and Production Engineering
+Stay current without attaching identity to the tools.
 
-### Containers
-| Skill | Level (0-5) |
-|---|---|
-| Docker | |
-| Dockerfiles | |
-| Container networking | |
-| Container volumes | |
-| Docker Compose | |
-| Container security | |
+* [ ] AI architecture
+* [ ] Agent engineering
+* [ ] Cloud infrastructure
+* [ ] AI evaluation
+* [ ] Deployment patterns
+* [ ] Model capabilities
+* [ ] AI assisted development workflows
 
-### Configuration
-| Skill | Level (0-5) |
-|---|---|
-| Environment management | |
-| Secret management | |
-| Configuration validation | |
-| Secret rotation | |
+## Disposable Knowledge
 
-### Delivery
-| Skill | Level (0-5) |
-|---|---|
-| CI/CD | |
-| GitHub Actions | |
-| Automated testing | |
-| Automated deployment | |
-| Rollback strategies | |
-| Feature flags | |
-| Blue green deployment | |
-| Canary deployment | |
+Learn quickly when needed.
 
-### Infrastructure
-| Skill | Level (0-5) |
-|---|---|
-| Infrastructure as Code | |
-| Terraform | |
-| Cloud IAM | |
-| Cloud networking | |
-| VPC fundamentals | |
-| Load balancers | |
-| Reverse proxies | |
-| Domains | |
-| DNS | |
-| TLS certificates | |
+Do not spend months mastering these without a real reason.
 
-### Deployment
-| Skill | Level (0-5) |
-|---|---|
-| Server deployment | |
-| Container deployment | |
-| Serverless fundamentals | |
-| Database deployment | |
-| Development environment | |
-| Staging environment | |
-| Production environment | |
-
-### Cloud Strategy
-| Skill | Level (0-5) | Depth |
-|---|---|---|
-| One cloud provider (choose one) | | Deep |
-| AWS | | General awareness |
-| Azure | | General awareness |
-| GCP | | General awareness |
-
-### Kubernetes *(fundamentals first)*
-| Skill | Level (0-5) |
-|---|---|
-| Pods | |
-| Deployments | |
-| Services | |
-| ConfigMaps | |
-| Secrets | |
-| Ingress | |
-| Scaling | |
-
-### Cost Engineering
-| Skill | Level (0-5) |
-|---|---|
-| Cloud cost awareness | |
-| Resource sizing | |
-| Storage cost | |
-| Database cost | |
-| AI API cost | |
-| Cost monitoring | |
+* [ ] Framework syntax
+* [ ] Vendor APIs
+* [ ] Specific AI models
+* [ ] Specific agent frameworks
+* [ ] Temporary libraries
+* [ ] Tool specific commands
 
 ---
 
-## 07. Observability, Reliability and Operations
+# Phase 1
 
-> Learning direction: `Logs → metrics → traces → alerts → SLO → incident response`
+## Engineering Depth
 
-### Observability
-| Skill | Level (0-5) |
-|---|---|
-| Structured logging | |
-| Metrics | |
-| Distributed tracing | |
-| OpenTelemetry | |
-| Correlation IDs | |
-| Dashboards | |
+### October 2026 to December 2026
 
-### Monitoring
-| Skill | Level (0-5) |
-|---|---|
-| Alerting | |
-| Health checks | |
-| Readiness checks | |
-| Liveness checks | |
-| Availability measurement | |
-| Latency measurement | |
-| Error rate measurement | |
+This phase has the highest priority.
 
-### Reliability Engineering
-| Skill | Level (0-5) |
-|---|---|
-| SLI | |
-| SLO | |
-| Error budgets | |
-| Capacity planning | |
-| Scaling strategy | |
+The target is not learning more frameworks.
 
-### Incident Management
-| Skill | Level (0-5) |
-|---|---|
-| Incident response | |
-| Runbooks | |
-| Production incident communication | |
-| Root cause analysis | |
-| Postmortems | |
-| Post deployment support | |
-
-### Disaster Recovery
-| Skill | Level (0-5) |
-|---|---|
-| Backup strategy | |
-| RPO | |
-| RTO | |
-| Disaster recovery | |
-| Restore drills | |
+The target is understanding how software actually works.
 
 ---
 
-## 08. Security and Compliance
+## Runtime Fundamentals
 
-### Application Security
-| Skill | Level (0-5) |
-|---|---|
-| OWASP fundamentals | |
-| Threat modeling | |
-| Secure input validation | |
-| Secure output handling | |
-| Authentication security | |
-| Authorization security | |
-| Session security | |
-| CSRF | |
-| XSS | |
-| SQL injection | |
-| SSRF | |
-| File upload security | |
+Core:
 
-### Infrastructure Security
-| Skill | Level (0-5) |
-|---|---|
-| Encryption in transit | |
-| Encryption at rest | |
-| IAM | |
-| Least privilege | |
-| Credential rotation | |
-| Secret management | |
-| Secure dependency management | |
-| Software supply chain security | |
-| SBOM fundamentals | |
+* [ ] Processes
+* [ ] Threads
+* [ ] Event loop
+* [ ] Async programming
+* [ ] Concurrency
+* [ ] Parallelism fundamentals
+* [ ] Memory fundamentals
+* [ ] Filesystems
+* [ ] Streams
+* [ ] Buffers
+* [ ] Signals
+* [ ] Resource limits
 
-### API Security
-| Skill | Level (0-5) |
-|---|---|
-| Rate limiting | |
-| Webhook signatures | |
-| Replay attack prevention | |
-| API key management | |
-| Token rotation | |
+Evidence:
 
-### Data Protection
-| Skill | Level (0-5) |
-|---|---|
-| PII handling | |
-| Sensitive data classification | |
-| Audit logs | |
-| Data retention | |
-| Data deletion | |
-| Data minimization | |
-| GDPR fundamentals | |
-| DPA fundamentals | |
+* [ ] Debug a Node process issue
+* [ ] Investigate memory consumption
+* [ ] Explain Node event loop behaviour
+* [ ] Diagnose a resource exhaustion problem
 
 ---
 
-## 09. AI Application Engineering
+## Networking
 
-> Learning direction: `Model APIs → structured output → context engineering → tool use → routing → production constraints`
+Core:
 
-### LLM Fundamentals
-| Skill | Level (0-5) |
-|---|---|
-| Transformer fundamentals | |
-| Tokens | |
-| Context windows | |
-| Model capabilities | |
-| Model limitations | |
-| Reasoning models | |
-| Multimodal models | |
+* [ ] HTTP
+* [ ] HTTPS
+* [ ] TCP
+* [ ] UDP fundamentals
+* [ ] DNS
+* [ ] Ports
+* [ ] TLS
+* [ ] Reverse proxies
+* [ ] WebSockets
+* [ ] Connection lifecycle
+* [ ] Timeouts
+* [ ] Keep alive behaviour
 
-### Model APIs
-| Skill | Level (0-5) |
-|---|---|
-| Model API usage | |
-| Streaming | |
-| Structured outputs | |
-| Schema constrained generation | |
-| Function calling | |
-| Error handling | |
-| Retry handling | |
+Evidence:
 
-### Prompt and Context Engineering
-| Skill | Level (0-5) |
-|---|---|
-| Prompt engineering | |
-| System instructions | |
-| Context engineering | |
-| Context prioritization | |
-| Context compression | |
-| Context window management | |
-
-### Model Strategy
-| Skill | Level (0-5) |
-|---|---|
-| Model selection | |
-| Model routing | |
-| Provider abstraction | |
-| Provider fallback | |
-| Cost optimization | |
-| Latency optimization | |
-| Token management | |
-| Prompt caching | |
-
-### Local Models
-| Skill | Level (0-5) |
-|---|---|
-| Ollama | |
-| Local model fundamentals | |
-| Privacy considerations | |
-| Local inference tradeoffs | |
+* [ ] Diagnose a DNS failure
+* [ ] Configure TLS
+* [ ] Configure reverse proxy
+* [ ] Investigate a failed network request
+* [ ] Explain request lifecycle from browser to database
 
 ---
 
-## 10. Retrieval and RAG
+## Linux
 
-> Capability first. Technology second.
+Core:
 
-### Retrieval Fundamentals
-| Skill | Level (0-5) |
-|---|---|
-| Embeddings | |
-| Similarity search | |
-| Vector retrieval | |
-| Keyword retrieval | |
-| Hybrid retrieval | |
+* [ ] Shell
+* [ ] Processes
+* [ ] Signals
+* [ ] Permissions
+* [ ] Users
+* [ ] Groups
+* [ ] Filesystems
+* [ ] Environment variables
+* [ ] Resource monitoring
+* [ ] Network inspection
+* [ ] Service management
+* [ ] Logs
 
-### Data Ingestion
-| Skill | Level (0-5) |
-|---|---|
-| Document ingestion | |
-| Parsing | |
-| Chunking | |
-| Metadata design | |
-| Embedding pipelines | |
-| Indexing pipelines | |
-| Incremental indexing | |
+Evidence:
 
-### Retrieval Quality
-| Skill | Level (0-5) |
-|---|---|
-| Metadata filtering | |
-| Query rewriting | |
-| Reranking | |
-| Retrieval evaluation | |
-| Relevance measurement | |
-
-### Production RAG
-| Skill | Level (0-5) |
-|---|---|
-| Permission aware retrieval | |
-| Tenant aware retrieval | |
-| Citation generation | |
-| Source attribution | |
-| RAG observability | |
-| Index updates | |
-| Retrieval caching | |
-
-### RAG Security
-| Skill | Level (0-5) |
-|---|---|
-| RAG poisoning defense | |
-| Prompt injection through retrieved documents | |
-| Cross tenant retrieval prevention | |
-| Sensitive document filtering | |
-
-### Implementation Technologies
-| Skill | Level (0-5) |
-|---|---|
-| pgvector | |
-| Qdrant | |
-| Elasticsearch | |
-| Other vector stores | |
+* [ ] Deploy an application manually
+* [ ] Diagnose a failing Linux service
+* [ ] Investigate CPU or memory pressure
+* [ ] Find the reason an application cannot access a file or port
 
 ---
 
-## 11. Agentic Systems
+# Phase 2
 
-> Learning direction: `Tool calling → controlled workflows → state → memory → approval → durable agents → multi agent systems`
+## Backend and Data Systems
 
-### Tool Use
-| Skill | Level (0-5) |
-|---|---|
-| Tool calling | |
-| Tool schema design | |
-| Tool input validation | |
-| Tool output validation | |
-| Tool errors | |
-| Tool permissions | |
-| Tool isolation | |
+### January 2027 to March 2027
 
-### Agent Architecture
-| Skill | Level (0-5) |
-|---|---|
-| Agent loops | |
-| Agent state | |
-| Memory | |
-| Working memory | |
-| Persistent memory | |
-| Planning fundamentals | |
-| Termination conditions | |
-
-### Workflow Orchestration
-| Skill | Level (0-5) |
-|---|---|
-| Deterministic workflows | |
-| Agentic workflows | |
-| Workflow state | |
-| Checkpointing | |
-| Human approval | |
-| Approval boundaries | |
-| Escalation | |
-| Failure recovery | |
-
-### Agent Harness Engineering
-| Skill | Level (0-5) |
-|---|---|
-| Context management | |
-| Tool registry | |
-| Execution environment | |
-| Filesystem access | |
-| Code execution | |
-| State persistence | |
-| Checkpointing | |
-| Retry policies | |
-| Budget controls | |
-| Permission boundaries | |
-| Termination logic | |
-| Subagent coordination | |
-
-### Agent Protocols and Frameworks
-| Skill | Level (0-5) |
-|---|---|
-| MCP | |
-| MCP clients | |
-| MCP servers | |
-| MCP authorization | |
-| LangGraph | |
-| Agent framework fundamentals | |
-
-### Advanced Agents
-| Skill | Level (0-5) |
-|---|---|
-| Durable agents | |
-| Long running agents | |
-| Multi agent systems | |
-| Agent delegation | |
-| Subagents | |
+The target is becoming dangerous with production backend systems.
 
 ---
 
-## 12. AI Evaluation, Safety and Operations
+# Backend Engineering
 
-> Learning direction: `Golden dataset → offline evaluation → regression evaluation → production monitoring → red teaming`
+Core:
 
-### Evaluation Datasets
-| Skill | Level (0-5) |
-|---|---|
-| Golden datasets | |
-| Dataset versioning | |
-| Evaluation dataset management | |
-| Representative test cases | |
-| Edge cases | |
+* [ ] NestJS
+* [ ] REST architecture
+* [ ] Resource modelling
+* [ ] Request validation
+* [ ] Response design
+* [ ] Error architecture
+* [ ] Pagination
+* [ ] Filtering
+* [ ] Sorting
+* [ ] API versioning
+* [ ] OpenAPI
+* [ ] File uploads
+* [ ] Webhooks
+* [ ] WebSockets fundamentals
 
-### AI Evaluation
-| Skill | Level (0-5) |
-|---|---|
-| Offline evaluation | |
-| Online evaluation | |
-| Regression evaluation | |
-| Retrieval evaluation | |
-| Tool use evaluation | |
-| Task completion evaluation | |
-| Hallucination testing | |
-| Structured output evaluation | |
+Evidence:
 
-### Evaluation Methods
-| Skill | Level (0-5) |
-|---|---|
-| Deterministic evaluation | |
-| Human evaluation | |
-| LLM as judge | |
-| Judge calibration | |
-| LLM judge limitations | |
-
-### AI Observability
-| Skill | Level (0-5) |
-|---|---|
-| Prompt monitoring | |
-| Model monitoring | |
-| Prompt versioning | |
-| Model version tracking | |
-| Cost tracking | |
-| Token tracking | |
-| Latency tracking | |
-| Task success tracking | |
-
-### AI Safety
-| Skill | Level (0-5) |
-|---|---|
-| Prompt injection defense | |
-| Indirect prompt injection | |
-| Sensitive data disclosure prevention | |
-| Guardrails | |
-| PII detection | |
-| PII redaction | |
-| Low confidence escalation | |
-| Human approval | |
-
-### AI Security
-| Skill | Level (0-5) |
-|---|---|
-| Tool abuse prevention | |
-| Excessive agency prevention | |
-| Context poisoning | |
-| Memory poisoning | |
-| Retrieval poisoning | |
-| Tool privilege escalation | |
-| MCP security | |
-| Model supply chain security | |
-| Data supply chain security | |
-| AI red teaming | |
+* [ ] Design a production API
+* [ ] Define consistent error responses
+* [ ] Build idempotent endpoints
+* [ ] Design API versioning strategy
+* [ ] Document the API properly
 
 ---
 
-## 13. Enterprise Integration Engineering
+# Authentication
 
-### APIs
-| Skill | Level (0-5) |
-|---|---|
-| Third party APIs | |
-| OAuth integrations | |
-| API keys | |
-| External authentication | |
-| External rate limits | |
+Core:
 
-### Communication Patterns
-| Skill | Level (0-5) |
-|---|---|
-| Webhooks | |
-| Polling | |
-| Event subscriptions | |
-| Webhook retries | |
-| Webhook deduplication | |
+* [ ] Password security
+* [ ] Cookies
+* [ ] Sessions
+* [ ] JWT
+* [ ] Refresh tokens
+* [ ] OAuth 2.0
+* [ ] OpenID Connect
+* [ ] MFA fundamentals
+* [ ] SSO fundamentals
 
-### Enterprise Systems
-| Skill | Level (0-5) |
-|---|---|
-| CRM integration | |
-| ERP integration | |
-| Payroll systems | |
-| Document stores | |
-| Data warehouses | |
-| Identity providers | |
-| Legacy systems | |
+Working:
 
-### Data Integration
-| Skill | Level (0-5) |
-|---|---|
-| Schema transformation | |
-| Data mapping | |
-| Data reconciliation | |
-| Data validation | |
-| Import pipelines | |
-| Export pipelines | |
+* [ ] SAML fundamentals
 
-### Connector Architecture
-| Skill | Level (0-5) |
-|---|---|
-| Connector abstractions | |
-| Connector authentication | |
-| Connector configuration | |
-| Connector retries | |
-| Connector observability | |
-| Connector failure recovery | |
-| Connector versioning | |
+Primary implementation:
+
+* [ ] Better Auth
 
 ---
 
-## 14. Forward Deployed Engineering and Product Delivery
+# Authorization
 
-> Learning direction: `Discovery → problem framing → requirements → prototype → pilot → production → adoption → handover`
+Core:
 
-### Discovery
-| Skill | Level (0-5) |
-|---|---|
-| Customer discovery | |
-| Stakeholder interviews | |
-| Manual workflow analysis | |
-| Business process understanding | |
-| Domain understanding | |
-| Pain point identification | |
+* [ ] Permissions
+* [ ] RBAC
+* [ ] ABAC
+* [ ] Resource ownership
+* [ ] Policy based authorization
+* [ ] Tenant scoped permissions
 
-### Requirements
-| Skill | Level (0-5) |
-|---|---|
-| Problem framing | |
-| Requirement discovery | |
-| Requirement clarification | |
-| Functional requirements | |
-| Non functional requirements | |
-| Must have vs nice to have | |
-| Acceptance criteria | |
+Primary implementation:
 
-### Solution Design
-| Skill | Level (0-5) |
-|---|---|
-| Domain modeling | |
-| Automation opportunity identification | |
-| Architecture whiteboarding | |
-| Architecture explanation | |
-| Technical tradeoff communication | |
-| Risk analysis | |
+* [ ] CASL
 
-### Delivery
-| Skill | Level (0-5) |
-|---|---|
-| Rapid prototyping | |
-| Demo engineering | |
-| MVP scoping | |
-| Pilot design | |
-| Integration design | |
-| Deployment ownership | |
+Evidence:
 
-### Business Outcomes
-| Skill | Level (0-5) |
-|---|---|
-| KPI definition | |
-| ROI estimation | |
-| Adoption measurement | |
-| Success criteria | |
-
-### Communication
-| Skill | Level (0-5) |
-|---|---|
-| Stakeholder communication | |
-| Executive communication | |
-| Technical communication | |
-| Documentation | |
-| Knowledge transfer | |
-| Customer handover | |
-
-### Production Ownership
-| Skill | Level (0-5) |
-|---|---|
-| Production support | |
-| Incident handling | |
-| Customer feedback | |
-| Iteration after deployment | |
+* [ ] Design authorization for multiple roles
+* [ ] Prevent privilege escalation
+* [ ] Prevent cross tenant access
+* [ ] Write authorization tests
 
 ---
 
-## 15. Product Building and Frontend Breadth
+# Multi Tenant Systems
 
-### Frontend Engineering
-| Skill | Level (0-5) |
-|---|---|
-| React | |
-| Next.js | |
-| TypeScript | |
-| Component architecture | |
-| State management | |
-| Data fetching | |
+Core:
 
-### Product UI
-| Skill | Level (0-5) |
-|---|---|
-| Forms | |
-| Validation | |
-| Authentication UI | |
-| Role based UI | |
-| Permission aware UI | |
-| Dashboard design | |
-| Tables | |
-| Search | |
-| Filtering | |
-| Pagination | |
+* [ ] Tenant identification
+* [ ] Tenant isolation
+* [ ] Database isolation strategies
+* [ ] Authorization isolation
+* [ ] Storage isolation
+* [ ] Tenant aware caching
+* [ ] Tenant aware background jobs
+* [ ] Cross tenant attack prevention
 
-### UX Quality
-| Skill | Level (0-5) |
-|---|---|
-| Loading states | |
-| Error states | |
-| Empty states | |
-| Responsive design | |
-| Accessibility | |
-| Performance fundamentals | |
+Evidence:
 
-### Product Learning
-| Skill | Level (0-5) |
-|---|---|
-| Product analytics | |
-| Event tracking | |
-| User feedback collection | |
-| Feature adoption measurement | |
+* [ ] Build tenant isolation
+* [ ] Test cross tenant attacks
+* [ ] Write a tenant architecture document
 
 ---
 
-## 16. AI Assisted Software Engineering
+# PostgreSQL
 
-> Core rule: `AI writes faster → engineer verifies harder`
+This is one of the deepest skills in the entire roadmap.
 
-### AI Development Workflow
-| Skill | Level (0-5) |
-|---|---|
-| AI coding assistants | |
-| Coding agents | |
-| Repository context management | |
-| Project instruction files | |
-| Specification driven development | |
-| Task decomposition | |
+Core:
 
-### AI Assisted Implementation
-| Skill | Level (0-5) |
-|---|---|
-| Code generation | |
-| Refactoring | |
-| Debugging | |
-| Test generation | |
-| Documentation generation | |
-| Migration assistance | |
+* [ ] SQL
+* [ ] Relational modelling
+* [ ] Schema design
+* [ ] Relationships
+* [ ] Constraints
+* [ ] Transactions
+* [ ] ACID
+* [ ] Isolation levels
+* [ ] Locks
+* [ ] Deadlocks
+* [ ] Indexes
+* [ ] Query plans
+* [ ] EXPLAIN
+* [ ] Query optimization
+* [ ] Connection pooling
+* [ ] Migrations
+* [ ] Data integrity
+* [ ] Concurrency control
 
-### Verification
-| Skill | Level (0-5) |
-|---|---|
-| AI generated code review | |
-| Correctness verification | |
-| Security verification | |
-| Test verification | |
-| Dependency verification | |
+Operations:
 
-### Agentic Coding
-| Skill | Level (0-5) |
-|---|---|
-| Parallel coding agents | |
-| Task delegation | |
-| Repository scoped agents | |
-| Agent review workflows | |
-| Human review boundaries | |
+* [ ] Backups
+* [ ] Restore testing
+* [ ] Database monitoring
+* [ ] Replication fundamentals
+* [ ] Data migrations
+* [ ] Zero downtime migration concepts
 
----
+Evidence:
 
-## 17. Document and Multimodal AI
-
-### Documents
-| Skill | Level (0-5) |
-|---|---|
-| PDF processing | |
-| OCR | |
-| Layout extraction | |
-| Table extraction | |
-| Form extraction | |
-| Document classification | |
-| Structured data extraction | |
-
-### Multimodal Systems
-| Skill | Level (0-5) |
-|---|---|
-| Image understanding | |
-| Vision models | |
-| Document vision | |
-| Image plus text workflows | |
-
-### Production Document AI
-| Skill | Level (0-5) |
-|---|---|
-| Confidence scoring | |
-| Validation rules | |
-| Human review | |
-| Document provenance | |
-| Extraction auditability | |
-| Reprocessing | |
-| Document versioning | |
+* [ ] Find and optimize a slow query
+* [ ] Create a race condition and fix it
+* [ ] Create a deadlock and understand it
+* [ ] Design a transaction correctly
+* [ ] Create an indexing strategy
+* [ ] Perform backup and restore
 
 ---
 
-## 18. Desktop and Offline Systems
+# Redis
 
-> Breadth track only. Do not let this block backend or AI progression.
+Working:
 
-### Desktop
-| Skill | Level (0-5) |
-|---|---|
-| Electron or Tauri | |
-| Desktop architecture | |
-| Operating system integration | |
-| Application packaging | |
-| Code signing | |
-| Automatic updates | |
-| Crash reporting | |
+* [ ] Redis fundamentals
+* [ ] Caching
+* [ ] Cache invalidation
+* [ ] TTL strategies
+* [ ] Rate limit storage
+* [ ] Queue backing
+* [ ] Distributed coordination fundamentals
 
-### Local Data
-| Skill | Level (0-5) |
-|---|---|
-| SQLite | |
-| IndexedDB fundamentals | |
-| Local persistence | |
-| Secure local storage | |
-| Local encryption | |
-| Secure credential storage | |
+Evidence:
 
-### Offline Systems
-| Skill | Level (0-5) |
-|---|---|
-| Offline first architecture | |
-| Offline queues | |
-| Synchronization | |
-| Conflict resolution | |
-| Optimistic updates | |
-| Reconnection strategies | |
-
-### Local AI
-| Skill | Level (0-5) |
-|---|---|
-| Local model execution | |
-| Local embeddings | |
-| Offline inference | |
+* [ ] Design a caching strategy
+* [ ] Handle Redis failure
+* [ ] Avoid stale data problems
 
 ---
 
-## 19. Advanced Specialization
+# Distributed Systems
 
-> Learn when your work demands it. None of these should block your core roadmap.
+Core:
 
-### Distributed Systems
-| Skill | Level (0-5) |
-|---|---|
-| Advanced distributed systems | |
-| Consensus fundamentals | |
-| Distributed databases | |
+* [ ] Background workers
+* [ ] Queues
+* [ ] Job processing
+* [ ] Scheduled jobs
+* [ ] Delayed jobs
+* [ ] Retries
+* [ ] Exponential backoff
+* [ ] Idempotency
+* [ ] Deduplication
+* [ ] Timeouts
+* [ ] Dead letter queues
+* [ ] Poison messages
+* [ ] Event driven architecture
+* [ ] Eventual consistency
+* [ ] Outbox pattern
+* [ ] Saga fundamentals
+* [ ] Distributed locking fundamentals
 
-### Infrastructure
-| Skill | Level (0-5) |
-|---|---|
-| Advanced Kubernetes | |
-| Advanced networking | |
-| Platform engineering | |
+Primary implementation:
 
-### Security
-| Skill | Level (0-5) |
-|---|---|
-| Advanced application security | |
-| Cloud security | |
-| Security engineering | |
+* [ ] BullMQ
+* [ ] Redis
 
-### AI Infrastructure
-| Skill | Level (0-5) |
-|---|---|
-| Model serving | |
-| Fine tuning | |
-| GPU fundamentals | |
-| Quantization | |
-| High performance inference | |
-| Model optimization | |
+Evidence:
 
-### Advanced Retrieval
-| Skill | Level (0-5) |
-|---|---|
-| GraphRAG | |
-| Knowledge graphs | |
-| Advanced retrieval architectures | |
-
-### Languages
-| Skill | Level (0-5) |
-|---|---|
-| Go | |
-| Rust | |
+* [ ] Build an idempotent job
+* [ ] Handle duplicate processing
+* [ ] Recover from worker failure
+* [ ] Handle external service timeout
+* [ ] Build a reliable document processing workflow
 
 ---
 
-## 20. Interview Preparation
+# Failure Engineering
 
-> Keep this separate from engineering competency.
+This becomes a required skill.
 
-### Algorithms
-| Skill | Level (0-5) |
-|---|---|
-| Arrays | |
-| Strings | |
-| Hash maps | |
-| Linked lists | |
-| Stacks | |
-| Queues | |
-| Trees | |
-| Graphs | |
-| BFS | |
-| DFS | |
-| Heaps | |
-| Binary search | |
-| Recursion | |
-| Dynamic programming | |
+Deliberately break systems.
 
-### Interviews
-| Skill | Level (0-5) |
-|---|---|
-| Coding exercises | |
-| Backend interviews | |
-| System design interviews | |
-| AI system design interviews | |
-| Behavioral interviews | |
-| Customer scenarios | |
-| Architecture discussions | |
+* [ ] Stop Redis
+* [ ] Stop database connections
+* [ ] Make an external API timeout
+* [ ] Send duplicate requests
+* [ ] Trigger race conditions
+* [ ] Create slow queries
+* [ ] Break permissions
+* [ ] Fail background workers
+* [ ] Fill storage
+* [ ] Introduce invalid configuration
+
+For every failure:
+
+* [ ] Detect it
+* [ ] Diagnose it
+* [ ] Recover from it
+* [ ] Prevent recurrence
+* [ ] Document the incident
 
 ---
 
-## Reference: Parent Capability Rule
+# Phase 3
 
-Frameworks/tools are implementations, not primary skills. Learn the capability; treat the tool as swappable.
+## Production Engineering
 
-```
-Agent orchestration
-├── Tool calling
-├── State
-├── Memory
-├── Human approval
-├── Recovery
-├── Durable workflows
-├── MCP
-└── LangGraph (implementation)
+### January 2027 to April 2027
 
-Vector retrieval
-├── Embeddings
-├── Chunking
-├── Metadata
-├── Filtering
-├── Hybrid search
-├── Reranking
-├── pgvector (implementation)
-└── Qdrant (implementation)
+This overlaps with Phase 2.
 
-Queue processing
-├── Jobs
-├── Retries
-├── Idempotency
-├── Scheduling
-├── Dead letter queues
-├── BullMQ / SQS / RabbitMQ (implementations)
-```
+The target is full production ownership.
 
 ---
 
-## Reference: 8 Main Career Capability Groups
+# Containers
 
-1. Software Engineering Foundations
-2. Backend and Data Engineering
-3. Distributed Systems and Reliability
-4. Cloud, Security and Production
-5. AI Application Engineering
-6. Agentic Systems and Evaluation
-7. Enterprise Integration Engineering
-8. Forward Deployed Product Engineering
+Working to Core:
 
----
-
-## Reference: Mastery Targets
-
-### Deep mastery (Level 4+)
-TypeScript, Node.js, Backend architecture, HTTP, PostgreSQL, SQL, Redis, API design, Authentication, Authorization, Multi tenancy, Queues, Distributed workflows, Docker, CI/CD, Observability, Security fundamentals, LLM APIs, Structured outputs, Tool calling, RAG, Agent orchestration, AI evaluation, Enterprise integrations, FDE delivery skills
-
-### Working knowledge (Level 2-3)
-Terraform, Kubernetes, Neo4j, Qdrant, SAML, GraphRAG, Desktop development, Local models, Advanced cloud networking, Data warehouses
-
-### Optional specialization (only with clear demand)
-Rust, Go, GPU programming, Fine tuning, Quantization, Advanced Kubernetes, Advanced distributed systems, High performance inference, Deep ML research
+* [ ] Docker
+* [ ] Dockerfiles
+* [ ] Docker Compose
+* [ ] Container networking
+* [ ] Volumes
+* [ ] Container security
+* [ ] Image optimization
 
 ---
 
-## North Star
+# Delivery
 
-> Optimize for: **What kinds of real problems can I independently understand, design, build, secure, deploy, evaluate and operate?**
+Working:
 
-`Strong software engineer + Strong backend engineer + Production AI engineer + Enterprise integration engineer + Product minded FDE`
+* [ ] CI/CD
+* [ ] GitHub Actions
+* [ ] Automated testing
+* [ ] Automated deployment
+* [ ] Rollback
+* [ ] Feature flags
+* [ ] Deployment strategies
+
+Awareness:
+
+* [ ] Blue green deployment
+* [ ] Canary deployment
+
+---
+
+# Cloud and Infrastructure
+
+Working:
+
+* [ ] Hetzner Cloud
+* [ ] AWS fundamentals
+* [ ] Cloud IAM
+* [ ] Networking
+* [ ] Load balancers
+* [ ] Domains
+* [ ] DNS
+* [ ] TLS
+* [ ] Reverse proxies
+* [ ] Storage
+* [ ] Backups
+
+Primary:
+
+* [ ] Hetzner
+
+General awareness:
+
+* [ ] AWS
+* [ ] Azure
+* [ ] GCP
+
+---
+
+# Kubernetes
+
+Optional.
+
+Fundamentals only until work demands more.
+
+* [ ] Pods
+* [ ] Deployments
+* [ ] Services
+* [ ] ConfigMaps
+* [ ] Secrets
+* [ ] Ingress
+* [ ] Scaling concepts
+
+Do not make Kubernetes mastery a current career goal.
+
+---
+
+# Observability
+
+Core:
+
+* [ ] Structured logging
+* [ ] Correlation IDs
+* [ ] Metrics
+* [ ] Traces
+* [ ] Health checks
+* [ ] Alerting
+* [ ] Dashboards
+* [ ] Error tracking
+* [ ] Latency monitoring
+* [ ] Error rate monitoring
+
+Tools:
+
+* [ ] Sentry
+* [ ] Grafana
+* [ ] OpenTelemetry
+* [ ] Pino or equivalent structured logging
+
+---
+
+# Reliability
+
+Working:
+
+* [ ] SLI
+* [ ] SLO
+* [ ] Error budgets
+* [ ] Capacity planning
+* [ ] Graceful degradation
+* [ ] Circuit breakers
+* [ ] Failure isolation
+* [ ] Dependency failure handling
+
+---
+
+# Incident Engineering
+
+Core:
+
+* [ ] Incident response
+* [ ] Runbooks
+* [ ] Root cause analysis
+* [ ] Postmortems
+* [ ] Production communication
+* [ ] Rollback
+* [ ] Restore procedures
+* [ ] RPO
+* [ ] RTO
+
+Evidence:
+
+* [ ] Write at least three incident reports
+* [ ] Perform restore drill
+* [ ] Diagnose a production style failure
+
+---
+
+# Phase 4
+
+## Security Engineering Fundamentals
+
+### Throughout 2027
+
+Security is a career hedge and an engineering requirement.
+
+---
+
+# Application Security
+
+Core:
+
+* [ ] OWASP fundamentals
+* [ ] Threat modelling
+* [ ] Input validation
+* [ ] Output handling
+* [ ] Authentication security
+* [ ] Authorization security
+* [ ] Session security
+* [ ] CSRF
+* [ ] XSS
+* [ ] SQL injection
+* [ ] SSRF
+* [ ] File upload security
+* [ ] Mass assignment
+* [ ] Broken access control
+* [ ] Security headers
+
+---
+
+# Infrastructure Security
+
+Working:
+
+* [ ] Encryption in transit
+* [ ] Encryption at rest
+* [ ] IAM
+* [ ] Least privilege
+* [ ] Secret management
+* [ ] Secret rotation
+* [ ] Dependency security
+* [ ] Container security
+* [ ] Supply chain security fundamentals
+* [ ] SBOM fundamentals
+
+Primary tool:
+
+* [ ] Infisical
+
+---
+
+# API Security
+
+Core:
+
+* [ ] Rate limiting
+* [ ] Webhook signatures
+* [ ] Replay prevention
+* [ ] API key management
+* [ ] Token rotation
+* [ ] Permission boundaries
+
+---
+
+# Data Protection
+
+Working:
+
+* [ ] PII handling
+* [ ] Data classification
+* [ ] Audit logs
+* [ ] Retention
+* [ ] Deletion
+* [ ] Data minimization
+* [ ] GDPR fundamentals
+* [ ] DPA fundamentals
+
+---
+
+# Phase 5
+
+## AI Systems Engineering
+
+### April 2027 to June 2027
+
+Do not become a prompt engineer.
+
+Become someone who can build reliable AI systems.
+
+---
+
+# Python for AI Engineering
+
+Working:
+
+* [ ] Python syntax
+* [ ] Virtual environments
+* [ ] Dependency management
+* [ ] Async Python fundamentals
+* [ ] Data processing
+* [ ] HTTP clients
+* [ ] FastAPI
+* [ ] Testing
+* [ ] Background tasks
+
+Do not chase Python mastery for its own sake.
+
+---
+
+# Model Fundamentals
+
+Working:
+
+* [ ] Tokens
+* [ ] Context windows
+* [ ] Transformer fundamentals
+* [ ] Reasoning models
+* [ ] Multimodal models
+* [ ] Model limitations
+* [ ] Hallucination
+* [ ] Tool use
+* [ ] Model capability evaluation
+
+---
+
+# Model APIs
+
+Core:
+
+* [ ] Streaming
+* [ ] Structured outputs
+* [ ] Schema constrained generation
+* [ ] Tool calling
+* [ ] Error handling
+* [ ] Retry handling
+* [ ] Model fallback
+
+Providers may change.
+
+The capability matters more than the provider.
+
+---
+
+# Context Engineering
+
+Core:
+
+* [ ] System instructions
+* [ ] Context selection
+* [ ] Context prioritization
+* [ ] Context compression
+* [ ] Context window management
+* [ ] Long context tradeoffs
+* [ ] Context isolation
+
+---
+
+# Model Strategy
+
+Working:
+
+* [ ] Model selection
+* [ ] Model routing
+* [ ] Provider abstraction
+* [ ] Provider fallback
+* [ ] Cost optimization
+* [ ] Latency optimization
+* [ ] Token management
+* [ ] Prompt caching
+
+---
+
+# Retrieval
+
+Working:
+
+* [ ] Embeddings
+* [ ] Keyword search
+* [ ] Vector retrieval
+* [ ] Hybrid retrieval
+* [ ] Chunking
+* [ ] Metadata
+* [ ] Filtering
+* [ ] Query rewriting
+* [ ] Reranking
+* [ ] Retrieval evaluation
+
+Primary starting point:
+
+* [ ] PostgreSQL full text search
+* [ ] pgvector
+
+Use only when required:
+
+* [ ] Qdrant
+* [ ] Elasticsearch
+* [ ] Neo4j
+
+Do not build RAG just because AI is involved.
+
+---
+
+# Agent Systems
+
+Core:
+
+* [ ] Tool calling
+* [ ] Tool schema design
+* [ ] Tool permissions
+* [ ] State
+* [ ] Memory concepts
+* [ ] Workflow orchestration
+* [ ] Human approval
+* [ ] Escalation
+* [ ] Failure recovery
+* [ ] Checkpointing
+* [ ] Long running workflows
+* [ ] Termination conditions
+
+---
+
+# MCP
+
+Working:
+
+* [ ] MCP concepts
+* [ ] MCP clients
+* [ ] MCP servers
+* [ ] MCP authorization
+* [ ] Tool exposure
+* [ ] Permission boundaries
+* [ ] MCP security
+
+---
+
+# LangGraph
+
+Working:
+
+* [ ] State
+* [ ] Nodes
+* [ ] Edges
+* [ ] Checkpointing
+* [ ] Human approval
+* [ ] Workflow recovery
+
+LangGraph is an implementation.
+
+Agent architecture is the capability.
+
+---
+
+# AI Evaluation
+
+Core:
+
+* [ ] Golden datasets
+* [ ] Representative cases
+* [ ] Edge cases
+* [ ] Offline evaluation
+* [ ] Online evaluation
+* [ ] Regression evaluation
+* [ ] Tool use evaluation
+* [ ] Task completion evaluation
+* [ ] Hallucination testing
+* [ ] Structured output evaluation
+* [ ] Human evaluation
+* [ ] LLM as judge
+* [ ] Judge calibration
+
+Evidence:
+
+* [ ] Build an evaluation suite
+* [ ] Compare multiple models
+* [ ] Track regression after prompt changes
+* [ ] Define task success metrics
+
+---
+
+# AI Security
+
+Core:
+
+* [ ] Prompt injection
+* [ ] Indirect prompt injection
+* [ ] Tool abuse
+* [ ] Excessive agency
+* [ ] Sensitive data disclosure
+* [ ] Context poisoning
+* [ ] Memory poisoning
+* [ ] Retrieval poisoning
+* [ ] Tool privilege escalation
+* [ ] MCP security
+* [ ] Human approval boundaries
+
+---
+
+# Phase 6
+
+## AI Assisted Software Engineering
+
+### July 2027 to September 2027
+
+This is one of the most important parts of the roadmap.
+
+Your goal is not to manually produce the most code.
+
+Your goal is to safely control enormous engineering output.
+
+---
+
+# Coding Agents
+
+Core:
+
+* [ ] Claude Code
+* [ ] Codex
+* [ ] GitHub Copilot
+* [ ] Repository context
+* [ ] Project instructions
+* [ ] Specification driven development
+* [ ] Task decomposition
+* [ ] Agent delegation
+
+---
+
+# Parallel Engineering
+
+Core:
+
+* [ ] Parallel coding agents
+* [ ] Subagents
+* [ ] Repository scoped agents
+* [ ] Task isolation
+* [ ] Context isolation
+* [ ] Merge strategy
+* [ ] Agent review workflows
+* [ ] Human review boundaries
+
+---
+
+# Verification
+
+This is more important than generation.
+
+Core:
+
+* [ ] Correctness verification
+* [ ] Architecture verification
+* [ ] Security verification
+* [ ] Test verification
+* [ ] Dependency verification
+* [ ] Migration verification
+* [ ] Performance verification
+* [ ] AI generated code review
+
+Rule:
+
+**AI writes faster. Engineer verifies harder.**
+
+---
+
+# AI Dependency Control
+
+Use two modes.
+
+## Work Mode
+
+Use AI aggressively.
+
+* [ ] Architecture assistance
+* [ ] Code generation
+* [ ] Test generation
+* [ ] Documentation
+* [ ] Debugging
+* [ ] Refactoring
+* [ ] Research
+* [ ] Code review
+* [ ] Parallel implementation
+
+## Training Mode
+
+Regularly solve problems without AI.
+
+* [ ] Database debugging
+* [ ] SQL
+* [ ] Networking
+* [ ] Backend debugging
+* [ ] Linux
+* [ ] System design
+* [ ] Security reasoning
+* [ ] Algorithms
+
+Suggested rule:
+
+Three sessions per week.
+
+Around 45 to 60 minutes each.
+
+Try independently first.
+
+Then use AI to review your reasoning.
+
+---
+
+# Phase 7
+
+## Product and Forward Deployed Engineering
+
+### October 2027 to December 2027
+
+Move from feature ownership to problem ownership.
+
+---
+
+# Discovery
+
+Core:
+
+* [ ] Customer discovery
+* [ ] Stakeholder interviews
+* [ ] Workflow analysis
+* [ ] Domain understanding
+* [ ] Pain point identification
+* [ ] Current process analysis
+
+---
+
+# Requirements
+
+Core:
+
+* [ ] Problem framing
+* [ ] Requirement discovery
+* [ ] Requirement clarification
+* [ ] Functional requirements
+* [ ] Non functional requirements
+* [ ] Acceptance criteria
+* [ ] Prioritization
+* [ ] Scope control
+
+---
+
+# Solution Design
+
+Core:
+
+* [ ] Domain modelling
+* [ ] Architecture
+* [ ] Automation identification
+* [ ] AI suitability analysis
+* [ ] Human approval boundaries
+* [ ] Risk analysis
+* [ ] Cost analysis
+* [ ] Technical tradeoffs
+
+---
+
+# Delivery
+
+Core:
+
+* [ ] Rapid prototyping
+* [ ] MVP scoping
+* [ ] Pilot design
+* [ ] Integration design
+* [ ] Deployment ownership
+* [ ] Production support
+* [ ] Iteration after deployment
+
+---
+
+# Business Understanding
+
+Working:
+
+* [ ] KPI definition
+* [ ] ROI
+* [ ] Adoption
+* [ ] Cost reduction
+* [ ] Revenue impact
+* [ ] Workflow efficiency
+* [ ] Success criteria
+
+---
+
+# Communication
+
+Core:
+
+* [ ] Technical writing
+* [ ] Architecture explanation
+* [ ] Stakeholder communication
+* [ ] Executive communication
+* [ ] Documentation
+* [ ] Knowledge transfer
+* [ ] Incident communication
+
+---
+
+# Cross Platform Product Building
+
+These skills exist so that you can independently build full products with AI.
+
+They are not primary career specializations.
+
+---
+
+# Mobile Development
+
+## One Week Fundamentals Track
+
+Primary stack:
+
+**React Native + Expo**
+
+### Day 1
+
+* [ ] React Native architecture
+* [ ] Components
+* [ ] Layout
+* [ ] Styling
+* [ ] Platform differences
+
+### Day 2
+
+* [ ] Navigation
+* [ ] Screens
+* [ ] Deep linking fundamentals
+* [ ] App lifecycle
+
+### Day 3
+
+* [ ] HTTP requests
+* [ ] Authentication
+* [ ] Secure storage
+* [ ] Local persistence
+
+### Day 4
+
+* [ ] Camera
+* [ ] Files
+* [ ] Permissions
+* [ ] Native device APIs
+
+### Day 5
+
+* [ ] SQLite fundamentals
+* [ ] Offline storage
+* [ ] Synchronization concepts
+* [ ] Optimistic updates
+
+### Day 6
+
+* [ ] Push notification fundamentals
+* [ ] Background work fundamentals
+* [ ] Error handling
+* [ ] Crash reporting
+
+### Day 7
+
+* [ ] Build
+* [ ] Signing concepts
+* [ ] Release process
+* [ ] App Store awareness
+* [ ] Play Store awareness
+
+After this week:
+
+Use AI heavily.
+
+Deepen only when a real project requires it.
+
+---
+
+# Desktop Development
+
+## One Week Fundamentals Track
+
+Primary stack:
+
+**Tauri + React + TypeScript**
+
+### Day 1
+
+* [ ] Desktop application architecture
+* [ ] Tauri architecture
+* [ ] Frontend and native boundary
+
+### Day 2
+
+* [ ] Windows
+* [ ] Menus
+* [ ] System tray
+* [ ] Desktop events
+
+### Day 3
+
+* [ ] Filesystem access
+* [ ] Permissions
+* [ ] Secure paths
+* [ ] File handling
+
+### Day 4
+
+* [ ] SQLite
+* [ ] Local persistence
+* [ ] Secure credential storage
+* [ ] Local encryption fundamentals
+
+### Day 5
+
+* [ ] Operating system integration
+* [ ] Notifications
+* [ ] Clipboard
+* [ ] Process execution awareness
+
+### Day 6
+
+* [ ] Packaging
+* [ ] Code signing fundamentals
+* [ ] Automatic updates
+* [ ] Crash reporting
+
+### Day 7
+
+Build one complete desktop application using AI.
+
+After this week:
+
+Use AI heavily.
+
+Do not become a desktop specialist unless business demand appears.
+
+---
+
+# Offline Systems
+
+Working knowledge:
+
+* [ ] SQLite
+* [ ] IndexedDB
+* [ ] Local persistence
+* [ ] Offline queues
+* [ ] Synchronization
+* [ ] Conflict resolution
+* [ ] Optimistic updates
+* [ ] Reconnection
+* [ ] Secure local storage
+
+These concepts transfer between web, mobile, and desktop.
+
+---
+
+# Technologies Not Prioritized
+
+Do not currently spend significant learning time on:
+
+* [ ] Rust
+* [ ] Go
+* [ ] Flutter
+* [ ] Kotlin
+* [ ] Swift
+* [ ] Advanced Kubernetes
+* [ ] Advanced Terraform
+* [ ] GraphRAG
+* [ ] Advanced Neo4j
+* [ ] Advanced Qdrant
+* [ ] GPU programming
+* [ ] Fine tuning
+* [ ] Quantization
+* [ ] Deep ML research
+* [ ] Native Android specialization
+* [ ] Native iOS specialization
+
+These are not bad technologies.
+
+They simply have lower expected return for your current position.
+
+---
+
+# Interview Preparation
+
+Keep this separate from engineering capability.
+
+---
+
+# DSA
+
+Working knowledge:
+
+* [ ] Arrays
+* [ ] Strings
+* [ ] Hash maps
+* [ ] Linked lists
+* [ ] Stacks
+* [ ] Queues
+* [ ] Trees
+* [ ] Graphs
+* [ ] BFS
+* [ ] DFS
+* [ ] Heaps
+* [ ] Binary search
+* [ ] Recursion
+* [ ] Basic dynamic programming
+* [ ] Time complexity
+* [ ] Space complexity
+
+Target:
+
+Around three or four problems per week.
+
+Do not turn LeetCode into your main career.
+
+---
+
+# Interviews
+
+* [ ] Backend interviews
+* [ ] Database interviews
+* [ ] System design
+* [ ] AI system design
+* [ ] Security discussions
+* [ ] Architecture discussions
+* [ ] Behavioral interviews
+* [ ] Customer scenarios
+* [ ] Production incident scenarios
+
+---
+
+# Evidence Based Learning
+
+Watching a course does not prove competence.
+
+Every major skill needs evidence.
+
+Examples:
+
+* [ ] Architecture document
+* [ ] Production feature
+* [ ] Incident report
+* [ ] Root cause analysis
+* [ ] Performance investigation
+* [ ] Security review
+* [ ] Database optimization
+* [ ] AI evaluation report
+* [ ] Load test
+* [ ] Failure recovery experiment
+* [ ] Deployment
+* [ ] Technical decision record
+
+---
+
+# Main Learning Laboratory
+
+Use real production work whenever possible.
+
+Do not create tutorial projects when the same concept can be learned inside a real system.
+
+Ideal problems to own:
+
+* [ ] Multi tenant architecture
+* [ ] Authorization
+* [ ] Audit logging
+* [ ] Document processing
+* [ ] Background jobs
+* [ ] AI workflows
+* [ ] Human approval
+* [ ] Transaction safety
+* [ ] Concurrency
+* [ ] Observability
+* [ ] Security
+* [ ] Data migrations
+* [ ] Integration architecture
+* [ ] Production incidents
+
+---
+
+# Quarterly Career Review
+
+Perform this review every three months.
+
+Suggested checkpoints:
+
+* December 2026
+* March 2027
+* June 2027
+* September 2027
+* December 2027
+
+At every checkpoint review:
+
+## Capability
+
+* [ ] Am I owning larger problems?
+* [ ] Am I becoming less dependent on AI for understanding?
+* [ ] Can I debug systems I did not personally write?
+* [ ] Can I evaluate AI generated architecture?
+* [ ] Can I operate production systems?
+
+## Market
+
+Collect around 20 to 30 relevant jobs.
+
+Review:
+
+* [ ] Bangladesh backend jobs
+* [ ] Bangladesh AI engineering jobs
+* [ ] Bangladesh DevOps and platform jobs
+* [ ] Security roles
+* [ ] Remote international roles
+
+Record:
+
+* [ ] Required skills
+* [ ] Experience requirements
+* [ ] Salary
+* [ ] AI requirements
+* [ ] Degree requirements
+* [ ] Seniority
+* [ ] Remote availability
+
+Do not make career decisions from social media posts alone.
+
+Use actual employer behaviour.
+
+---
+
+# December 2027 Career Decision
+
+At the end of 2027 choose the strongest branch based on market evidence and personal capability.
+
+Possible branches:
+
+## Branch A
+
+AI Systems and Applied AI
+
+## Branch B
+
+Backend and Platform Engineering
+
+## Branch C
+
+Forward Deployed Engineering
+
+## Branch D
+
+Security Engineering
+
+## Branch E
+
+AI Infrastructure
+
+Do not decide this branch permanently in 2026.
+
+Earn optionality first.
+
+---
+
+# Career Pivot Conditions
+
+Do not defend software forever because you already invested time in it.
+
+Reevaluate seriously if several of these happen together:
+
+* [ ] Experienced software hiring declines structurally
+* [ ] Backend hiring collapses for a sustained period
+* [ ] Platform and DevOps hiring also collapses
+* [ ] Security engineering demand also weakens materially
+* [ ] AI agents reliably own production systems with little expert supervision
+* [ ] AI performs architecture, implementation, deployment, debugging, and operations reliably
+* [ ] Companies systematically operate with extremely small engineering teams
+* [ ] Your strong production capability consistently receives weak market demand
+* [ ] Bangladesh opportunities become economically unattractive
+* [ ] Remote international opportunities also contract
+* [ ] Another realistic career path clearly offers better expected return
+
+One bad quarter is not enough.
+
+Look for structural evidence.
+
+---
+
+# Mastery Targets
+
+## Deep Mastery
+
+Target Level 4 or above:
+
+* TypeScript
+* Node.js
+* Backend architecture
+* HTTP
+* PostgreSQL
+* SQL
+* Database modelling
+* Transactions
+* Concurrency
+* API design
+* Authentication
+* Authorization
+* Multi tenant systems
+* Distributed workflows
+* Queues
+* Redis
+* Linux
+* Docker
+* Debugging
+* Security fundamentals
+* Observability
+* Production operations
+* LLM APIs
+* Structured outputs
+* Tool calling
+* Context engineering
+* AI evaluation
+* Agent architecture
+* AI assisted engineering
+* Problem framing
+* Production ownership
+
+## Working Knowledge
+
+Target Level 2 or Level 3:
+
+* Python
+* FastAPI
+* AWS
+* Kubernetes
+* Terraform concepts
+* pgvector
+* Qdrant
+* Neo4j
+* SAML
+* OpenTelemetry
+* React Native
+* Expo
+* Tauri
+* SQLite
+* Offline architecture
+
+## Optional
+
+Learn only with real demand:
+
+* Go
+* Rust
+* Flutter
+* Native Android
+* Native iOS
+* Advanced Kubernetes
+* Advanced Terraform
+* GraphRAG
+* Fine tuning
+* GPU programming
+* Quantization
+* High performance model*
