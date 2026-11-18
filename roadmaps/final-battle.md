@@ -1,4 +1,4 @@
-# Final Battle
+<img width="1919" height="1141" alt="image" src="https://github.com/user-attachments/assets/ee14c7c1-1980-4436-9566-cf8c026369b5" /># Final Battle
 
 ## Backend Heavy AI Systems Engineer Roadmap
 
@@ -46,44 +46,44 @@ Do not specialize in everything at once.
 
 ## Primary Languages
 
-* [ ] TypeScript
-* [ ] JavaScript
-* [ ] Python
-* [ ] SQL
+* [x] TypeScript
+* [x] JavaScript
+* [x] Python
+* [x] SQL
 
 ## Backend
 
-* [ ] Node.js
-* [ ] NestJS
-* [ ] REST APIs
-* [ ] OpenAPI
-* [ ] WebSockets
-* [ ] Zod
-* [ ] Better Auth
-* [ ] CASL
+* [x] Node.js
+* [x] NestJS
+* [x] REST APIs
+* [x] OpenAPI
+* [x] WebSockets
+* [x] Zod
+* [x] Better Auth
+* [x] CASL
 
 ## Data
 
-* [ ] PostgreSQL
-* [ ] Drizzle ORM
-* [ ] Redis
+* [x] PostgreSQL
+* [x] Drizzle ORM
+* [x] Redis
 
 Use only when required:
 
-* [ ] pgvector
-* [ ] Qdrant
+* [x] pgvector
+* [x] Qdrant
 * [ ] Neo4j
 
 ## Infrastructure
 
 * [ ] Linux
-* [ ] Docker
-* [ ] Docker Compose
-* [ ] GitHub Actions
+* [x] Docker
+* [x] Docker Compose
+* [x] GitHub Actions
 * [ ] Hetzner Cloud
 * [ ] AWS fundamentals
 * [ ] Nginx or Caddy
-* [ ] DNS
+* [x] DNS
 * [ ] TLS
 * [ ] Infisical
 
@@ -111,7 +111,7 @@ Use only when required:
 * [ ] Evaluation
 * [ ] AI observability
 * [ ] AI security
-* [ ] RAG fundamentals
+* [x] RAG fundamentals
 * [ ] MCP
 * [ ] LangGraph
 
