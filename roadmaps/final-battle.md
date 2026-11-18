@@ -1,4 +1,4 @@
-<img width="1919" height="1141" alt="image" src="https://github.com/user-attachments/assets/ee14c7c1-1980-4436-9566-cf8c026369b5" /># Final Battle
+# Final Battle
 
 ## Backend Heavy AI Systems Engineer Roadmap
 
