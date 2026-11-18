@@ -1,4 +1,3 @@
-# Final Battle
 
 ## Backend Heavy AI Systems Engineer Roadmap
 
@@ -90,7 +89,7 @@ Use only when required:
 ## Observability
 
 * [ ] Structured logging
-* [ ] Sentry
+* [x] Sentry
 * [ ] Grafana
 * [ ] OpenTelemetry fundamentals
 * [ ] Metrics
@@ -99,12 +98,12 @@ Use only when required:
 
 ## AI Engineering
 
-* [ ] Python
-* [ ] FastAPI fundamentals
+* [x] Python
+* [x] FastAPI fundamentals
 * [ ] Model APIs
-* [ ] Structured outputs
-* [ ] Tool calling
-* [ ] Context engineering
+* [x] Structured outputs
+* [x] Tool calling
+* [x] Context engineering
 * [ ] Model routing
 * [ ] Agent workflows
 * [ ] Human approval
@@ -112,8 +111,8 @@ Use only when required:
 * [ ] AI observability
 * [ ] AI security
 * [x] RAG fundamentals
-* [ ] MCP
-* [ ] LangGraph
+* [x] MCP
+* [x] LangGraph
 
 ## AI Assisted Engineering
 
@@ -691,7 +690,7 @@ Core:
 
 Tools:
 
-* [ ] Sentry
+* [x] Sentry
 * [ ] Grafana
 * [ ] OpenTelemetry
 * [ ] Pino or equivalent structured logging
@@ -832,13 +831,13 @@ Become someone who can build reliable AI systems.
 
 Working:
 
-* [ ] Python syntax
+* [x] Python syntax
 * [ ] Virtual environments
 * [ ] Dependency management
 * [ ] Async Python fundamentals
 * [ ] Data processing
 * [ ] HTTP clients
-* [ ] FastAPI
+* [x] FastAPI
 * [ ] Testing
 * [ ] Background tasks
 
@@ -867,9 +866,9 @@ Working:
 Core:
 
 * [ ] Streaming
-* [ ] Structured outputs
+* [x] Structured outputs
 * [ ] Schema constrained generation
-* [ ] Tool calling
+* [x] Tool calling
 * [ ] Error handling
 * [ ] Retry handling
 * [ ] Model fallback
@@ -884,7 +883,7 @@ The capability matters more than the provider.
 
 Core:
 
-* [ ] System instructions
+* [x] System instructions
 * [ ] Context selection
 * [ ] Context prioritization
 * [ ] Context compression
@@ -943,7 +942,7 @@ Do not build RAG just because AI is involved.
 
 Core:
 
-* [ ] Tool calling
+* [x] Tool calling
 * [ ] Tool schema design
 * [ ] Tool permissions
 * [ ] State
@@ -962,7 +961,7 @@ Core:
 
 Working:
 
-* [ ] MCP concepts
+* [x] MCP concepts
 * [ ] MCP clients
 * [ ] MCP servers
 * [ ] MCP authorization
@@ -976,7 +975,7 @@ Working:
 
 Working:
 
-* [ ] State
+* [x] State
 * [ ] Nodes
 * [ ] Edges
 * [ ] Checkpointing
